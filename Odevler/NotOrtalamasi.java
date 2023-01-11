@@ -1,13 +1,9 @@
 import java.util.Scanner;
 
-/**
- * NotOrtalamasi
- */
+
 public class NotOrtalamasi {
 
-    /**
-     * @param args
-     */
+   
     public static void main(String[] args) {
         int mat,fiz,kim,tur,tar,muz;
         Scanner input=new Scanner(System.in);
