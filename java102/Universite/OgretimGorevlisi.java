@@ -21,5 +21,13 @@ public class OgretimGorevlisi extends Akademisyen {
     public void sinavYap(){
         System.out.println("Sınav yapıldı");
     }
-    
+    @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Öğretim Görevlisi Üniversiteye giriş yaptı.");
+    }
+
+    @Override
+    public void derseGir(String saat){
+        System.out.println("derse girdi");
+    }
 }

@@ -19,4 +19,9 @@ public class BilgiIslem extends Memur{
     public void networkKurulumu(){
         System.out.println("Network çalıştırıldı.");
     }
+
+    @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Memur Üniversiteye giriş yaptı.");
+    }
 }

@@ -1,5 +1,5 @@
 package Universite;
-public class Calisan {
+public abstract class Calisan {
     private String  adSoyad;
     private String  telefon;
     private String  eposta;
@@ -40,9 +40,14 @@ public class Calisan {
     public void setEposta(String eposta) {
         this.eposta = eposta;
     }
-
     public void giris(){
         System.out.println(this.adSoyad+" Üniversiteye giriş yaptı.");
+    }
+    public void giris(String s1){
+        System.out.println(this.adSoyad+" Üniversiteye "+s1+" giriş yaptı.");
+    }
+    public void giris(String s1, String s2){
+        System.out.println(this.adSoyad+" Üniversiteye "+s1+" giriş yaptı."+s2+" çıkış yaptı");
     }
 
     public void cikis(){
@@ -53,4 +58,9 @@ public class Calisan {
         System.out.println(this.adSoyad+" Yemekhaneye giriş yaptı.");
     }
     
+    public static void girisyapanlar(Calisan[] loginuser){
+        for (Calisan c : loginuser) {
+            c.giris();
+        }
+    }
 }

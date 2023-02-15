@@ -1,6 +1,6 @@
 package Universite;
 
-public class Memur extends Calisan{
+public abstract class Memur extends Calisan{
     private String departman;
     private String mesai;
     
@@ -29,4 +29,8 @@ public class Memur extends Calisan{
  public void calis(){
     System.out.println("Memur görevini yapıyor");
  }
+ @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Memur Üniversiteye giriş yaptı.");
+    }
 }

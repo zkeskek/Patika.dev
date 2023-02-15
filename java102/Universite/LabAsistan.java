@@ -12,4 +12,8 @@ public class LabAsistan extends Asistan {
     public void derseGir(){
         System.err.println("Lab Asistan derse girdi.");
     }
+    @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Lab Asistanı Üniversiteye giriş yaptı.");
+    }
 }

@@ -1,5 +1,5 @@
 package Universite;
-public class Akademisyen extends Calisan {
+public abstract class Akademisyen extends Calisan {
     private String bolum;
     private String unvan;
 
@@ -25,10 +25,7 @@ public class Akademisyen extends Calisan {
     public void setUnvan(String unvan) {
         this.unvan = unvan;
     }
-
-    public void derseGir(){
-        System.out.println(getAdSoyad()+" derse girdi");
-    }
     
+    public abstract void derseGir(String derssaati);
     
 }

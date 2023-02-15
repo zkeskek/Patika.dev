@@ -23,5 +23,8 @@ public class GuvenlikGorevlisi extends Memur {
     public void setBelge(String belge) {
         this.belge = belge;
     }
-    
+    @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Güvenlik Görevlisi Üniversiteye giriş yaptı.");
+    }
 }

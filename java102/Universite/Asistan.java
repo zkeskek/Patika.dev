@@ -17,7 +17,10 @@ public class Asistan extends Calisan{
         System.out.println("quiz yapıldı.");
     }
     
-    
+    @Override
+    public void giris(){
+        System.out.println(getAdSoyad() +" Asistan Üniversiteye giriş yaptı.");
+    }
     
     
 }
