@@ -15,6 +15,6 @@ public class UcgenAlanHesabi {
         
         System.out.println("Üçgenin Çevresi :"+UcgenCevresi);
         double alan=Math.sqrt(u*(u-a)*(u-b)*(u-c));
-        System.out.println("Alan :"+alan);
+        System.out.println("Alan :"+alan); input.close();
     }
 }

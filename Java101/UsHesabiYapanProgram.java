@@ -14,6 +14,6 @@ public class UsHesabiYapanProgram {
         System.out.println("Üs değerini giriniz: ");
         int b=input.nextInt();
         int x=square(a, b);
-        System.out.println("sonuç: "+x);
+        System.out.println("sonuç: "+x); input.close();
     }
 }

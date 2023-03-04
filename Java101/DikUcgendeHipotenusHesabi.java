@@ -17,5 +17,7 @@ public class DikUcgendeHipotenusHesabi {
         System.out.println("Hipotenüs :"+c);
         double alan=(a*b)/2;
         System.out.println("Alan :"+alan);
+        input.close();
     }
+    
 }

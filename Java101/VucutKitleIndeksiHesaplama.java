@@ -9,6 +9,6 @@ public class VucutKitleIndeksiHesaplama {
         System.out.println("Kilonuzu giriniz: ");
         kilo=input.nextDouble();
         vucudKitleIndeksi=kilo/(boy*boy);
-        System.out.println("Vücut Kitle İndeksiniz:"+vucudKitleIndeksi);
+        System.out.println("Vücut Kitle İndeksiniz:"+vucudKitleIndeksi); input.close();
     }
 }

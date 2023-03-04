@@ -41,6 +41,7 @@ public class UcakBiletiFiyatiHesaplama {
         
         } else {
             System.out.println("Hatalı Veri Girdiniz !");
-        }
+        } 
+        input.close();
     }
 }

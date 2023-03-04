@@ -11,6 +11,6 @@ public class UsluSayiHesaplayanProgram {
         for(int i=1;i<=us;i++){
         sonuc=sonuc*sayi;
         }
-        System.out.println(sayi+" "+us+". kuvveti : "+sonuc);
+        System.out.println(sayi+" "+us+". kuvveti : "+sonuc); input.close();
     }
 }

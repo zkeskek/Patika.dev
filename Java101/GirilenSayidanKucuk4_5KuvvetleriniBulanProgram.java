@@ -12,6 +12,6 @@ public class GirilenSayidanKucuk4_5KuvvetleriniBulanProgram {
                 System.out.print(i+" ");
             
         }
-         
+        input.close(); 
     }
 }

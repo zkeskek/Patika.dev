@@ -18,6 +18,6 @@ public class DizidekiElemanlariSiralama {
         //System.out.println("Dizi sırala:");
         Arrays.sort(dizi);
         System.out.println("Sıralama: "+Arrays.toString(dizi));
-
+        input.close();
     }
 }
