@@ -17,5 +17,6 @@ public class AsalSayilariBulanProgram {
             }
             if(asal) System.out.println(i+" Asal sayıdır.");
         }
+        input.close();
     }
 }

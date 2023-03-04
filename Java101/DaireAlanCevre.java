@@ -11,5 +11,6 @@ public class DaireAlanCevre {
         double alan=pi*r*r;
         System.out.println("Dairenin Çevresi: "+cevre);
         System.out.println("Dairenin Alanı: "+alan);
+        input.close();
     }
 }

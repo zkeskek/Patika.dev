@@ -9,7 +9,7 @@ public class deneme2 {
         int z = 2;
        
         if (y != z) {
-            int x = 20;
+            
         }
         int x = 50;
         number(x, z);

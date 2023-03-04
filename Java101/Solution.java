@@ -1,4 +1,4 @@
-package sport;
+
 class Sports{
 
     String getName(){

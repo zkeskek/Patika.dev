@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MukemmelSayiBulanProgram {
     public static void main(String[] args) {
-        int n, sayi, bolen, bolenToplam = 0;
+        int n, sayi,  bolenToplam = 0;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Sayıyı giriniz :");
@@ -24,5 +24,6 @@ public class MukemmelSayiBulanProgram {
             }
 bolenToplam=0;
         }
+        input.close();
     }
 }

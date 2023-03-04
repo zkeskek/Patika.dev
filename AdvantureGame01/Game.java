@@ -2,18 +2,31 @@
 import java.util.Random;
 import java.util.Scanner;
 
-import Player.*;
-import Tools.Armors;
-import Tools.Gun;
-import Tools.Rifle;
-import Tools.Sword;
-import Tools.Weapons;
-import Location.*;
+import Location.Mine;
+import Location.Cave;
+import Location.Forest;
+import Location.Location;
+import Location.River;
+import Location.SafeHouse;
+import Location.ToolStore;
 import Monstar.Bear;
 import Monstar.Monstar;
 import Monstar.Snake;
 import Monstar.Vampire;
 import Monstar.Zombie;
+import Player.Archer;
+import Player.Iventory;
+import Player.Knight;
+import Player.Player;
+import Player.Samurai;
+
+import Tools.Armors;
+import Tools.Gun;
+import Tools.Rifle;
+import Tools.Sword;
+import Tools.Weapons;
+
+
 
 public class Game {
 

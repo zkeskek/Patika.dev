@@ -11,7 +11,7 @@ public class MineSweeperCrate {
     }
 
     public int[][] mineSweeperMiror(int x, int y) {
-        int mineNumber = 0;
+        
         int[][] mineSweep = new int[this.x][this.y];
         for (int i = 0; i < mineSweep.length; i++) {
             for (int j = 0; j < mineSweep[0].length; j++) {

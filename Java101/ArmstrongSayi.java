@@ -29,6 +29,7 @@ public class ArmstrongSayi {
             if(toplam==sayi){
                 System.out.println(sayi+" Sayi Armstrong Sayıdır");
             }
+            input.close();
         }
     }
 

@@ -23,6 +23,7 @@ public class CinZodyagiHesaplama {
         if(yil%12==9){System.out.println("Burcunuz yılan");}
         if(yil%12==10){System.out.println("Burcunuz at");}
         if(yil%12==11){System.out.println("Burcunuz koyun");}
+        input.close();
        
     }
 }

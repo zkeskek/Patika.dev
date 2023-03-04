@@ -1,4 +1,4 @@
-package HashSet.TreeSet;
+package TreeSet;
 
 public class Student {
     private String name;

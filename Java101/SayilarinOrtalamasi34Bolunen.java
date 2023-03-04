@@ -21,5 +21,6 @@ public class SayilarinOrtalamasi34Bolunen {
         } else {
             System.out.println("3 ve 4 e bölünen Sayıların ortalaması: " + (0));
         }
+        input.close();
     }
 }

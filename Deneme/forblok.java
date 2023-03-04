@@ -1,4 +1,4 @@
-package Deneme;
+
 
 public class forblok {
     public static void main(String[] args) {

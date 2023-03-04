@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class YildizlarileUcgenYapimi {
+public class YildizlarileElmasYapimi {
     public static void main(String[] args) {
         Scanner klavye = new Scanner(System.in);
         System.out.println("Bir Sayı Giriniz :");
@@ -15,6 +15,6 @@ public class YildizlarileUcgenYapimi {
             }
             System.out.println(" ");
         }
-
+klavye.close();
     }
 }

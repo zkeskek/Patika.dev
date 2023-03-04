@@ -21,5 +21,6 @@ public class DeseneGoreMetotOlusturma {
         int k = 5;
 
         desen(n, k);
+        input.close();
     }
 }

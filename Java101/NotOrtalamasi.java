@@ -31,7 +31,7 @@ public class NotOrtalamasi {
               
         System.out.println(ortalama>=60? "Ortalama= "+ortalama+"Sınıfı Geçti":"Ortalama= "+ortalama+"Sınıfta Kaldı");
 
-       
+        input.close();
 
     }
 }

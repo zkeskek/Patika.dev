@@ -24,6 +24,6 @@ public class GirilenSayilarinMinMaxDegerleriBulma {
             System.out.println(i+". Sayı: "+sayi);
         }
         System.out.println("En Büyük Sayı: "+enbuyuk+"\nEn Küçük Sayı: "+enkucuk);
-
+        input.close();
     }
 }

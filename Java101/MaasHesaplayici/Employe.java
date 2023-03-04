@@ -19,7 +19,7 @@ public class Employe {
 
     
     public double tax() {
-        double x,y;
+        double x;
         x=salary+salary*raiseSalary()+bonus();
         if(x>1000){
             return x*0.03;

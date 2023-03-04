@@ -19,5 +19,6 @@ public class KombinasyonHesaplayanProgram {
             nrfak=nrfak*i;
         }
 System.out.println("Kombinasyon: "+nfak/(rfak*nrfak));
+input.close();
     }
 }

@@ -18,5 +18,6 @@ public class HavaSicakliginaGoreEtkinlikOnerme {
         if(25<=sicaklik){
             System.out.println("Yüzmeye gidebilirsiniz");
         }
+        input.close();
     }
 }

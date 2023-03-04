@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class MatrisTranspozunuBulma {
     public static void main(String[] args) {
