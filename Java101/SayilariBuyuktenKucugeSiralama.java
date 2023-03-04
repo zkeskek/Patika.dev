@@ -29,7 +29,7 @@ public class SayilariBuyuktenKucugeSiralama {
         if (b< a && c > a) {
             System.out.println(b + " " + a + " " + c);
         }
-
+        input.close();
     }
 
 }

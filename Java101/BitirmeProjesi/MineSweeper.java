@@ -34,6 +34,7 @@ public class MineSweeper {
                       
         }
         System.out.println("Game Over !!");
+        input.close();
 
     }
 

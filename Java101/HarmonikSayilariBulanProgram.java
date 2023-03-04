@@ -11,5 +11,6 @@ public class HarmonikSayilariBulanProgram {
             harmonik=harmonik+(double)1/i;
         }
 System.out.println(n+" sayısının harmoniği: "+harmonik);
+input.close();
     }
 }

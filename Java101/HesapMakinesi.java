@@ -35,6 +35,6 @@ public class HesapMakinesi {
 
                 break;
         }
-        
+        input.close();  
     }
 }

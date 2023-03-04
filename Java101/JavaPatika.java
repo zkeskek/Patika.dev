@@ -19,6 +19,7 @@ public class JavaPatika {
             System.out.println("toplam : " + result);
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void minus() {
@@ -39,6 +40,7 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void times() {
@@ -61,6 +63,7 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void divided() {
@@ -85,6 +88,7 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void power() {
@@ -101,6 +105,7 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void factorial() {
@@ -115,6 +120,7 @@ public class JavaPatika {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void mod() {
@@ -126,6 +132,7 @@ public class JavaPatika {
         mod = scan.nextInt();
         int result = number % mod;
         System.err.println("Mod işlemi sonucu: " + result);
+        scan.close();
     }
 
     static void Dikdortgen() {
@@ -139,6 +146,7 @@ public class JavaPatika {
         cevre=2*(wide+high);
         System.out.println("Dikdörtgenin alanı : "+alan);
         System.out.println("Dikdörtgenin çevresi : "+cevre);
+        scan.close();
     }
 
     public static void main(String[] args) {
@@ -190,5 +198,6 @@ public class JavaPatika {
             }
         } while (select != 0);
 
+        scan.close();
     }
 }

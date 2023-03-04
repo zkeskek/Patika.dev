@@ -55,5 +55,6 @@ public class SayiTahminOyunu {
             }
 
         }
+        input.close();
     }
 }

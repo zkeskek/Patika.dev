@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class DizidekiElemanlarinFrekansi {
     public static void main(String[] args) {
         int[] dizi = { 10, 20, 20, 10, 10, 20, 5, 20 };
-        int[] tekrar = new int[dizi.length];
-        tekrar = dizi;
+        
+        
         int frekans = 0;
 
         System.out.println("Dizi : " + Arrays.toString(dizi));

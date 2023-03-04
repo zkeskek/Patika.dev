@@ -24,5 +24,6 @@ public class BurcBulanProgram {
         if(ay==12&&gun>=22||ay==1&&gun<=21){System.out.println("Burcunuz oğlak");}
         if(ay==1&&gun>=22||ay==2&&gun<=19){System.out.println("Burcunuz Kova");}
         if(ay==2&&gun>=20||ay==3&&gun<=20){System.out.println("Burcunuz Balık");}
+        input.close();
     }
 }

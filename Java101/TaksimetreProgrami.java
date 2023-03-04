@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TaksimetreProgrami {
     public static void main(String[] args) {
         int km;
-        double tutar, kmFiyat=2.2;
+        double tutar;
         System.out.println("Km bilgisini giriniz:");
         Scanner input=new Scanner(System.in);
         km=input.nextInt();
@@ -13,5 +13,6 @@ public class TaksimetreProgrami {
         }else{
             System.out.println("Taksimetre Tutarı:"+20+" TL");
         }
+        input.close();
     }
 }

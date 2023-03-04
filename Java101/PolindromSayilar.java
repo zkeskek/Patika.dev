@@ -20,5 +20,6 @@ public class PolindromSayilar {
                 System.out.println(i + " sayısı polindrom bir sayıdır");
             }
         }
+        input.close();
     }
 }

@@ -39,5 +39,6 @@ public class SinifGecmeDurumu {
         }else{
             System.out.println("Ortalama= "+ortalama+" Sınıfta Kaldı");
         }
+        input.close();
     }
 }

@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Solution {
 
     public static boolean canWin(int leap, int[] game) {
 
-        int[] game0 = new int[game.length];
+        
         boolean ileri = true, geri = true;
         if (leap == 0)
             return false;

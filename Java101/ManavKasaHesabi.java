@@ -23,6 +23,6 @@ public class ManavKasaHesabi {
         double toplam=armutKgf*armutKg+elmakgf*elmaKg+domateskgf*domatesKg+muzkgf*muzKg+patlicanKgf*patlicanKg;
         System.out.println("Toplam Tutar: "+toplam+" TL");
 
-        
+        input.close();
     }
 }

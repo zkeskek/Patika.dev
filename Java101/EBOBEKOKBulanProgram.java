@@ -33,5 +33,6 @@ public class EBOBEKOKBulanProgram {
 okek=sayi1*sayi2/obeb;
         System.out.println("obeb: " + obeb);
         System.out.println("okek: " + okek);
+        input.close();
     }
 }

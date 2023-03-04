@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class Solution1 {
@@ -9,7 +8,7 @@ public class Solution1 {
         input.nextLine();
         int[] array=new int[n];
         int minusLine=0;
-        int result=0;
+       
         for(int i=0;i<n;i++){
             array[i]=input.nextInt();
         }
@@ -24,6 +23,7 @@ public class Solution1 {
                total=0;
            }
         System.out.println(minusLine);
+        input.close();
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 }

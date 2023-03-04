@@ -1,4 +1,4 @@
-package HashSet.TreeSet;
+package TreeSet;
 
 import java.util.*;
 

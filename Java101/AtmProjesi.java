@@ -64,5 +64,6 @@ public class AtmProjesi {
                 }
             }
         }
+        input.close();
     }
 }

@@ -11,6 +11,6 @@ public class TekSayilarinToplaminiBulanProgram {
                 total=total+n;}
 
         }while(n%2==0);
-        System.out.println("Toplam: "+total);
+        System.out.println("Toplam: "+total); input.close();
     }
 }

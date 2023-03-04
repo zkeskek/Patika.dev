@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class KullaniciGirisi {
     public static void main(String[] args) {
-        String userName, password,uName="abcd",pass="1234";
+        String userName, password;
         Scanner input = new Scanner(System.in);
         System.out.println("Kullanıcı adınız:");
         userName = input.nextLine();
@@ -33,6 +33,6 @@ public class KullaniciGirisi {
         } else {
             System.out.println("Kullanıcı ismi hatalı");
         }
-
+        input.close();
     }
 }

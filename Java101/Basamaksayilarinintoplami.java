@@ -12,5 +12,6 @@ public class Basamaksayilarinintoplami {
 
         }
         System.out.println("Sayının basamak sayılarının toplamı: "+toplam);
+        input.close();
     }
 }
