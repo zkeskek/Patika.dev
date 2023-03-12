@@ -20,16 +20,14 @@ public class Main {
         team.add(new Teams("Başakşehir"));
         team.add(new Teams("Trabzon"));
 
-
         if (team.size() % 2 == 1) {
             team.add(new Teams("Bay"));
         }
 
-        while (team.size()>match.size()) {
-           
-            
-            int a = 1+rnd.nextInt(team.size());
-            System.out.print(a+" ");
+        while (team.size() > match.size()) {
+
+            int a = 1 + rnd.nextInt(team.size());
+            System.out.print(a + " ");
             if (!match.contains(a))
                 match.add(a);
         }
@@ -57,31 +55,31 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("------ 1. Dönem Fikstür ----------");
 
-        for (int j = 0; j < matchset.size(); j = j + 2) {
-            if (j % (team.size()) == 0) {
-                System.out.println();
-                System.out.println((j / (team.size()) + 1) + ". Hafta .........");
+        for (int sezon = 1; sezon < 3; sezon++) {
+
+            System.out.println(sezon + ". Dönem Fikstür ----------");
+
+            for (int i = 0; i < matchset.size(); i = i + 2) {
+                int hafta = (i / (team.size()) + 1 + (sezon - 1) * (team.size() - 1));
+                if (i % (team.size()) == 0) {
+                    System.out.println();
+                    System.out.println(hafta + ". Hafta .........");
+
+                }
+                if (hafta % 2 == sezon%2 ) {
+                    System.out.println(team.get(matchset.get(i) - 1).getTeamName() + " - "
+                            + team.get(matchset.get(i + 1) - 1).getTeamName());
+                } else {
+                    System.out.println(team.get(matchset.get(i + 1) - 1).getTeamName() + " - "
+                            + team.get(matchset.get(i) - 1).getTeamName());
+                }
+
             }
-            System.out.println(team.get(matchset.get(j) - 1).getTeamName() + " - "
-                    + team.get(matchset.get(j + 1) - 1).getTeamName());
-
         }
-        System.out.println();
+        
 
-        System.out.println("------ 2. Dönem Fikstür ----------");
-
-        for (int j = 0; j < matchset.size(); j = j + 2) {
-            if (j % (team.size()) == 0) {
-                System.out.println();
-
-                System.out.println(j / (team.size()) + team.size() + ". Hafta .........");
-            }
-            System.out.println(team.get(matchset.get(j + 1) - 1).getTeamName() + " - "
-                    + team.get(matchset.get(j) - 1).getTeamName());
-
-        }
+        
 
     }
 
