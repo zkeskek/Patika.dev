@@ -1,0 +1,609 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Advanture",
+            "request": "launch",
+            "mainClass": "Advanture",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Advanture1",
+            "request": "launch",
+            "mainClass": "Advanture1",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongSayi",
+            "request": "launch",
+            "mainClass": "ArmstrongSayi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AdvantureGame01.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ArrayList.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "ArtikYilHesaplama",
+            "request": "launch",
+            "mainClass": "ArtikYilHesaplama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "AsalSayiBulanProgram1",
+            "request": "launch",
+            "mainClass": "AsalSayiBulanProgram1",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "AsalSayilariBulanProgram",
+            "request": "launch",
+            "mainClass": "AsalSayilariBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "AtmProjesi",
+            "request": "launch",
+            "mainClass": "AtmProjesi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Basamaksayilarinintoplami",
+            "request": "launch",
+            "mainClass": "Basamaksayilarinintoplami",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "BoksMaci.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "BookSorter.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "BurcBulanProgram",
+            "request": "launch",
+            "mainClass": "BurcBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "CinZodyagiHesaplama",
+            "request": "launch",
+            "mainClass": "CinZodyagiHesaplama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DaireAlanCevre",
+            "request": "launch",
+            "mainClass": "DaireAlanCevre",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DeseneGoreMetotOlusturma",
+            "request": "launch",
+            "mainClass": "DeseneGoreMetotOlusturma",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "PalindromikKelimleriBulanProgram",
+            "request": "launch",
+            "mainClass": "DigerKonular.PalindromikKelimleriBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "SayiTahminOyunu",
+            "request": "launch",
+            "mainClass": "DigerKonular.SayiTahminOyunu",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DikUcgendeHipotenusHesabi",
+            "request": "launch",
+            "mainClass": "DikUcgendeHipotenusHesabi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "A_BHarfiYazdiranProgram",
+            "request": "launch",
+            "mainClass": "Diziler.A_BHarfiYazdiranProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DizidekiElemanlariSiralama",
+            "request": "launch",
+            "mainClass": "Diziler.DizidekiElemanlariSiralama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DizidekiElemanlarinFrekansi",
+            "request": "launch",
+            "mainClass": "Diziler.DizidekiElemanlarinFrekansi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DizidekiElemanlarinOrtalamasiniBulanProgram",
+            "request": "launch",
+            "mainClass": "Diziler.DizidekiElemanlarinOrtalamasiniBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DizidekiMaksimumveMinimumDegerleriBulanProgram",
+            "request": "launch",
+            "mainClass": "Diziler.DizidekiMaksimumveMinimumDegerleriBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "DizidekiTekrarEdenSayilariBulanProgram",
+            "request": "launch",
+            "mainClass": "Diziler.DizidekiTekrarEdenSayilariBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Diziler",
+            "request": "launch",
+            "mainClass": "Diziler.Diziler",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "MatrisTranspozunuBulma",
+            "request": "launch",
+            "mainClass": "Diziler.MatrisTranspozunuBulma",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "Diziler.Matrix",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Diziler.Solution",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution1",
+            "request": "launch",
+            "mainClass": "Diziler.Solution1",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "EBOBEKOKBulanProgram",
+            "request": "launch",
+            "mainClass": "EBOBEKOKBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSerisi",
+            "request": "launch",
+            "mainClass": "FibonacciSerisi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "FiksturOlusturucu.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "GirilenSayidanKucuk4_5KuvvetleriniBulanProgram",
+            "request": "launch",
+            "mainClass": "GirilenSayidanKucuk4_5KuvvetleriniBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "GirilenSayilarinMinMaxDegerleriBulma",
+            "request": "launch",
+            "mainClass": "GirilenSayilarinMinMaxDegerleriBulma",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution(1)",
+            "request": "launch",
+            "mainClass": "HackerRank.Solution",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "HarmonikSayilariBulanProgram",
+            "request": "launch",
+            "mainClass": "HarmonikSayilariBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "HashMapa",
+            "request": "launch",
+            "mainClass": "HashMapa.HashMapa",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "HashSet.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "HavaSicakliginaGoreEtkinlikOnerme",
+            "request": "launch",
+            "mainClass": "HavaSicakliginaGoreEtkinlikOnerme",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "HesapMakinesi",
+            "request": "launch",
+            "mainClass": "HesapMakinesi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "IfBlock",
+            "request": "launch",
+            "mainClass": "IfBlock",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "JavaPatika",
+            "request": "launch",
+            "mainClass": "JavaPatika",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "KDVTutarHesabi",
+            "request": "launch",
+            "mainClass": "KDVTutarHesabi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "KombinasyonHesaplayanProgram",
+            "request": "launch",
+            "mainClass": "KombinasyonHesaplayanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "KullaniciGirisi",
+            "request": "launch",
+            "mainClass": "KullaniciGirisi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "MaasHesaplayici.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "ManavKasaHesabi",
+            "request": "launch",
+            "mainClass": "ManavKasaHesabi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "MineSweeper",
+            "request": "launch",
+            "mainClass": "MineSweeper",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "MukemmelSayiBulanProgram",
+            "request": "launch",
+            "mainClass": "MukemmelSayiBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "MyListMain",
+            "request": "launch",
+            "mainClass": "Mylist.MyListMain",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "NotOrtalamasi",
+            "request": "launch",
+            "mainClass": "NotOrtalamasi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "OgrenciBilgiSistemi.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "PatikaStore.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "PolindromSayilar",
+            "request": "launch",
+            "mainClass": "PolindromSayilar",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "Queue.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "PriorityExample",
+            "request": "launch",
+            "mainClass": "Queue.PriorityExample",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "QuList",
+            "request": "launch",
+            "mainClass": "Queue.QuList",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution(2)",
+            "request": "launch",
+            "mainClass": "Queue.Solution",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Recursive",
+            "request": "launch",
+            "mainClass": "Recursive",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveileFibonacciSerisiBulanProgram",
+            "request": "launch",
+            "mainClass": "RecursiveileFibonacciSerisiBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "SayilariBuyuktenKucugeSiralama",
+            "request": "launch",
+            "mainClass": "SayilariBuyuktenKucugeSiralama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "SayilarinOrtalamasi34Bolunen",
+            "request": "launch",
+            "mainClass": "SayilarinOrtalamasi34Bolunen",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "SinifGecmeDurumu",
+            "request": "launch",
+            "mainClass": "SinifGecmeDurumu",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution(3)",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "TaksimetreProgrami",
+            "request": "launch",
+            "mainClass": "TaksimetreProgrami",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "TekSayilarinToplaminiBulanProgram",
+            "request": "launch",
+            "mainClass": "TekSayilarinToplaminiBulanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "TersUcgenYapimi",
+            "request": "launch",
+            "mainClass": "TersUcgenYapimi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "TreeSet.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "Treemapx.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "UcakBiletiFiyatiHesaplama",
+            "request": "launch",
+            "mainClass": "UcakBiletiFiyatiHesaplama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "UcgenAlanHesabi",
+            "request": "launch",
+            "mainClass": "UcgenAlanHesabi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Patika",
+            "request": "launch",
+            "mainClass": "Universite.Patika",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "UsHesabiYapanProgram",
+            "request": "launch",
+            "mainClass": "UsHesabiYapanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "UsluSayiHesaplayanProgram",
+            "request": "launch",
+            "mainClass": "UsluSayiHesaplayanProgram",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "VucutKitleIndeksiHesaplama",
+            "request": "launch",
+            "mainClass": "VucutKitleIndeksiHesaplama",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "YildizlarileElmasYapimi",
+            "request": "launch",
+            "mainClass": "YildizlarileElmasYapimi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "YildizlarileUcgenYapimi",
+            "request": "launch",
+            "mainClass": "YildizlarileUcgenYapimi",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "deneme1",
+            "request": "launch",
+            "mainClass": "deneme1",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "deneme2",
+            "request": "launch",
+            "mainClass": "deneme2",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "forblok",
+            "request": "launch",
+            "mainClass": "forblok",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "lLinkedHashSet.Main",
+            "projectName": "Patika.dev_b6e9fd48"
+        },
+        {
+            "type": "java",
+            "name": "Solution(4)",
+            "request": "launch",
+            "mainClass": "ornek.Solution",
+            "projectName": "Patika.dev_b6e9fd48"
+        }
+    ]
+}

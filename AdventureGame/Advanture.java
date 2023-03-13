@@ -1,4 +1,4 @@
-public class Main {
+public class Advanture {
     public static void main(String[] args) {
         Game game = new Game();
         game.start();
