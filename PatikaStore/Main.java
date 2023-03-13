@@ -20,6 +20,7 @@ public class Main {
         notebook.add(new Notebook(3, "ASUS Tuf Gaming", 8199, "Asus", 2048, 15, 32, 0));
 
         TreeSet<String> marka = new TreeSet<>();
+        
         marka.add("Samsung");
         marka.add("Lenova");
         marka.add("Apple");
