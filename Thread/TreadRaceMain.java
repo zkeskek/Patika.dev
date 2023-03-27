@@ -9,7 +9,7 @@ public class TreadRaceMain {
         List<Integer> listOdd = new ArrayList<>();
         List<Integer> listEven = new ArrayList<>();
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 10000; i++) {
             list10.add(i);
         }
 
@@ -18,10 +18,10 @@ public class TreadRaceMain {
         List<Integer> list3 = new ArrayList<>();
         List<Integer> list4 = new ArrayList<>();
 
-        list1 = list10.subList(0, 25);
-        list2 = list10.subList(25, 50);
-        list3 = list10.subList(50, 75);
-        list4 = list10.subList(75, 100);
+        list1 = list10.subList(0, 2500);
+        list2 = list10.subList(2500, 5000);
+        list3 = list10.subList(5000, 7500);
+        list4 = list10.subList(7500, 10000);
 
         List list = new ArrayList<>(new ArrayList<>());
 
@@ -87,9 +87,10 @@ public class TreadRaceMain {
          * System.out.println("Listodd : " + listOdd);
          */
         Thread.sleep(0);
-        System.out.println("Listeven : " + TreadRace.getListEven()+" size : "+TreadRace.getListEven().size());
-        System.out.println("Listodd : " + TreadRace.getListOdd()+" size : "+TreadRace.getListOdd().size());
-
+        System.out.println("Listeven : " + TreadRace.getListEven());
+        System.out.println("Listodd : " + TreadRace.getListOdd());
+        System.out.println("Listeven  size : "+TreadRace.getListEven().size());
+        System.out.println("Listodd   size : "+TreadRace.getListOdd().size());
     }
 
 }
