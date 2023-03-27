@@ -31,17 +31,17 @@ public class TreadRaceMain {
         list.add(list4);
 
         System.out.println("...1 to 1000 Arraylist..............................");
-        System.out.println("List : " + list);
-
+        //System.out.println("List : " + list10);
+        System.out.println("List  size : " + list10.size());
         TreadRace race1 = new TreadRace(list1);
         TreadRace race2 = new TreadRace(list2);
         TreadRace race3 = new TreadRace(list3);
         TreadRace race4 = new TreadRace(list4);
         System.out.println("..............................");
-        System.out.println("List1 : " + list1);
-        System.out.println("List2 : " + list2);
-        System.out.println("List3 : " + list3);
-        System.out.println("List4 : " + list4);
+        System.out.println("List1 size : " + list1.size());
+        System.out.println("List2 size : " + list2.size());
+        System.out.println("List3 size : " + list3.size());
+        System.out.println("List4 size : " + list4.size());
         System.out.println("..............................");
 
         Thread t1 = new Thread(race1);
@@ -87,8 +87,11 @@ public class TreadRaceMain {
          * System.out.println("Listodd : " + listOdd);
          */
         Thread.sleep(0);
-        System.out.println("Listeven : " + TreadRace.getListEven());
-        System.out.println("Listodd : " + TreadRace.getListOdd());
+        System.out.println("Listeven :.............................................\n " + TreadRace.getListEven());
+        System.out.println("Listodd  :.............................................\n " + TreadRace.getListOdd());
+        System.out.println("..............................");
+
+
         System.out.println("Listeven  size : "+TreadRace.getListEven().size());
         System.out.println("Listodd   size : "+TreadRace.getListOdd().size());
     }
